@@ -10,6 +10,6 @@ On line 7 of the code there is this:
 Bundler.require(*Rails.groups)
 ```
 
-Ignore the `(*Rails.groups)` syntax but essentially what `Bundler.require` does is it require all of your gems in the Gemfile.
+Ignore the `(*Rails.groups)` syntax but essentially what `Bundler.require` does is it requires all of your gems listed in the Gemfile.
 
 I made a little terminal app to test this out in this repo. I have a Gemfile with colorize and faker. I then have an entry point file where I `require 'bundler'` and do the `Bundler.require` thing. I then require the `hello_world.rb` file and call a method in that file which is using the colorize and faker gems.
