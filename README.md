@@ -1,5 +1,3 @@
-## Question 1
-
 Someone asked yesterday about why Rails doesn't need to have any require statements to require gems into files.
 
 This is the reason.
